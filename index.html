@@ -52,9 +52,20 @@
       <section class="solutions">
         <div class="container">
           <h1 class="main-tittle">Effective Solutions for Your Business</h1>
-          <button class="button studio" type="button">Order Service</button>
+          <button class="button studio " data-modal-open type="button">Order Service</button>
         </div>
       </section>
+
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="close " data-modal-close type="button">
+            
+
+            <svg class="close-icon" xmlns="http://www.w3.org/2000/svg"  ><path  d="M8 .806 7.194 0 4 3.194.806 0 0 .806 3.194 4 0 7.194.806 8 4 4.806 7.194 8 8 7.194 4.806 4 8 .806Z"/></svg>
+          </button>
+        </div>
+      </div>
+
       <section class="advantages">
         <h2 class="tittle visually-hidden">our advantages</h2>
         <div class="container">
@@ -455,5 +466,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
