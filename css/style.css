@@ -569,13 +569,21 @@ img {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--cloud-background);
+  fill:#000000;
+  cursor: pointer;
 }
 .close-icon {
-  fill: #000000;
+  /* fill: #000000; */
   margin: auto;
 
   width: 8px;
   height: 8px;
+}
+.close:hover,
+.close:focus{
+  fill:var(--white-text-color);
+
+  background-color: var(--ocen-color);
 }
 .backdrop.is-hidden {
   opacity: 0;
